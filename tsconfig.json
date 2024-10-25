@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "baseUrl": "src",
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "../node_modules"
+  ],
+  "files": ["src/types/index.d.ts"]
+}
